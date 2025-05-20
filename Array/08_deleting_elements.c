@@ -16,11 +16,10 @@ int main()
         arr[i] = arr[i + 1];
     }
     n--;
-    printf("After deleting the element at position %d, the array is: \n", pos);
+    printf("After deleting the element at position %d, the array is : \n", pos);
     for (i = 0; i < n; i++)
     {
         printf("%d\t", arr[i]);
     }
-    printf("\n");
     return 0;
 }

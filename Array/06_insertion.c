@@ -9,7 +9,7 @@ int main()
         printf("arr[%d] ", i);
         scanf("%d", &arr[i]);
     }
-    printf("Enter the elements to be inserted : ");          // which elements to be inserted
+    printf("Enter the elements to be inserted : ");          // which elements to be inserted       
     scanf("%d", &num);
     printf("Enter the position to be inserted : ");
     scanf("%d", &pos);

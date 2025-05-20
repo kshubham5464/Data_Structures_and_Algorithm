@@ -1,26 +1,3 @@
-// #include<stdio.h>
-// int main() {
-//     int i, j, n, arr1[10], arr2[10], arr3[10];
-//     printf("Enter the number of elements: ");
-//     scanf("%d", &n);
-//     printf("Enter the elements of the first array: ");
-//     for (i = 0; i < n; i++) {
-//         scanf("%d", &arr1[i]);
-//     }
-//     printf("Enter the elements of the second array: ");
-//     for (i = 0; i < n; i++) {
-//         scanf("%d", &arr2[i]);
-//     }
-//     for (i = 0; i < n; i++) {
-//         arr3[i] = arr1[i] + arr2[i];
-//     }
-//     printf("The parallel array is: ");
-//     for (i = 0; i < n; i++) {
-//         printf("%d ", arr3[i]);
-//     }
-//     printf("\n");
-//     return 0;
-// }
 
 #include <stdio.h>
 #include <string.h>
@@ -63,3 +40,6 @@ int main()
 
     return 0;
 }
+
+
+
